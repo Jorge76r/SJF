@@ -1,32 +1,30 @@
-# Simulador de Algoritmos de Planificación: FCFS vs SJF  
-### Grupo #2 | 723 Sistemas Operativos I
+# Simulador SJF – Despliegue con Docker y Render
 
-Este proyecto es una aplicación web interactiva desarrollada en **React**, que permite simular los algoritmos de planificación de procesos:
-
-- **FCFS (First Come First Served)**  
-- **SJF (Shortest Job First, no apropiativo)**  
-
-Incluye funcionalidades como:
-
-✅ Agregar procesos dinámicamente  
-✅ Editar y eliminar cada proceso  
-✅ Ejecutar algoritmos y comparar tiempos promedio de espera  
-✅ Gráficos de Gantt interactivos  
-✅ Botón de reinicio para comenzar desde cero  
-✅ Tabla de resultados clara y paginada  
+Este proyecto implementa una aplicación web simple que representa el algoritmo de planificación **Shortest Job First (SJF)**. La aplicación fue contenerizada usando Docker y desplegada exitosamente en la plataforma Render.com como parte de una práctica de sistemas operativos.
 
 ---
 
-## 🚀 Tecnologías usadas
+## 🌐 Demo en línea
 
-- **React** – Para la interfaz de usuario
-- **Recharts** – Para gráficos de Gantt
-- **JavaScript + CSS** – Lógica y estilos del proyecto
+Accede al simulador aquí:  
+🔗 [https://sjf-3h5h.onrender.com](https://sjf-3h5h.onrender.com)
 
 ---
 
-## 📦 Instalación
+## 📦 Tecnologías utilizadas
+
+- **Docker**: Para contenerizar la aplicación y aislarla del sistema operativo anfitrión.
+- **Render.com**: Para desplegar el contenedor en la nube.
+- **Node.js + React (solo build estático)**: Para la construcción del frontend (aunque el foco está en la ejecución, no en el desarrollo).
+- **Nginx**: Como servidor liviano en el contenedor final.
+- **GitHub**: Como repositorio y control de versiones.
+
+---
+
+## ⚙️ Cómo ejecutar localmente
 
 1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/abad0101/simulador-fcfs-sjf-grupo2.git 
+
+```bash
+git clone https://github.com/Jorge76r/SJF.git
+cd SJF
